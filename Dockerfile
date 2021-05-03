@@ -22,6 +22,11 @@ RUN \
     kernel-devel
 
 ##
+# Configure workdir.
+##
+WORKDIR /app
+
+##
 # Expose our entrypoint.
 ##
 ENTRYPOINT ["/bin/bash"]
