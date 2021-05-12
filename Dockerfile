@@ -19,7 +19,13 @@ RUN \
     gcc-c++ \
     clang \
     git \
-    kernel-devel
+    kernel-devel \
+    go
+
+##
+# Configure workdir.
+##
+WORKDIR /app
 
 ##
 # Expose our entrypoint.
